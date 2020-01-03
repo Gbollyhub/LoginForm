@@ -1,0 +1,112 @@
+.brand-logo {
+    height: 7rem;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+
+    &__content{
+     opacity: .1;
+     height: 70rem;
+     margin-bottom: -45rem;
+     margin-right: -15rem;
+    }
+}
+
+.dots1 {
+    height: 15px;
+    width:15px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    animation: movecircle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+.dots2 {
+    height: 10px;
+    width:10px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    top:68%;
+    left: 35%;
+    animation: movecircle2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+.dots3 {
+    height: 7px;
+    width:7px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    animation: movecircle3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+
+.dots4 {
+    height: 7px;
+    width:7px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation: movecircle4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+
+.dots5 {
+    height: 7px;
+    width:7px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    animation: movecircle5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+
+.dots6 {
+    height: 15px;
+    width:15px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: $color-circles;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    animation: movecircle6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
